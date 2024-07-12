@@ -1,0 +1,338 @@
+/* Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    max-width: 200px; /* Adjust logo size as needed */
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+    margin: 0 auto;
+    border: 2px solid #004600;
+    border-radius: 4px; /* Add border-radius */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    color: #004600;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li#contact-link {
+    margin-left: auto;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.opening-section {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px 0;
+    color: #fff;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.tagline h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #004600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tagline p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.opening-section {
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Text color (assuming light text on a dark background) */
+    padding: 50px 0;
+    border-radius: 4px; /* Add border-radius */
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 4px; /* Add border-radius */
+}
+
+/* Animation Styles */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-text {
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes underline {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.fade-in-text::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px; 
+    background-color: #000; 
+    margin-top: 5px; 
+    animation: underline 1s ease forwards; 
+}
+
+/* Additional Styles */
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+} 
+
+html {
+    scroll-behavior: smooth;
+}
+
+.giant-slogan {
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.giant-slogan h2 {
+    font-size: 80px;
+    color: #004600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li img {
+    width: 50%;
+    height: auto;
+}
+
+.overview p {
+    color: #004600;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.Alex-image {
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 150px;
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 4px; /* Add border-radius */
+    object-fit: contain;
+}
+
+.image-title {
+    position: relative;
+    top: 230px;
+    left: 180px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px; /* Add border-radius */
+    color:#004600
+}
+.image-title-1{
+    position: relative;
+    top: 230px;
+    left: 200px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px; /* Add border-radius */
+    color:#004600;
+}
+.image-title-2 {
+    position: relative;
+    top: 230px;
+    left: 250px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px; /* Add border-radius */
+}
+.image-title-3 {
+    position: relative;
+    top: 230px;
+    left: 210px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px; /* Add border-radius */
+}
+
+
+.image-1-title {
+    position: relative;
+    top: 230px;
+    left: 180px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-one-description-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 200;
+    position:absolute;
+    right: 175px;
+    margin-top: 300px;
+    border: 2px solid black;
+    max-height: 500px;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.image-one-description {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-image {
+    border: 2px solid black;
+    width: 500px;
+    position: relative;
+    left: 500px;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.product-image img {
+    width: 100%;
+}
+
+button {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(175%, -1440%);
+    z-index: 10000;
+    background-color:#004600;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.slide-show-container {
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    animation: slide-animation 10s linear infinite;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:1;
+}
+button:hover {
+    background-color: blue;
+}

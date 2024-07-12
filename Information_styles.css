@@ -1,0 +1,209 @@
+/* Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    max-width: 200px; /* Adjust logo size as needed */
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+    margin: 0 auto;
+    border: 2px solid #004600;
+    border-radius: 4px; /* Add border-radius */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    color: #004600;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li#contact-link {
+    margin-left: auto;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.opening-section {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px 0;
+    color: #fff;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 4px; /* Add border-radius */
+}
+
+.tagline h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #004600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opening-section {
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Text color (assuming light text on a dark background) */
+    padding: 50px 0;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 0 0;
+    width: 100%;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav ul li img {
+    width: 50%;
+    height: auto;
+}
+
+
+button {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(175%, -1480%);
+    z-index: 10000;
+    background-color:#004600;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px; /* Add border-radius */
+}
+button:hover {
+    background-color: blue;
+}
+body {
+    /* background: rgb(248, 248, 248); */
+    background: linear-gradient(90deg, #002800, #004600);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    width: 300px;
+    height: auto;
+    background: rgb(243, 242, 242);
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0.3rem;
+    box-shadow: 1px 2px 5px rgb(120 119 119);
+    position: absolute;
+    top: 120px;
+  }
+  form h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #004600;
+  }
+  
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: none;
+    outline: none;
+  }
+  
+  input,
+  textarea {
+    background: rgb(228, 227, 227);
+    border: none;
+    outline: none;
+  }
+  textarea {
+    resize: none;
+    height: 60px;
+  }
+  input {
+    padding: 8px 7px;
+  }
+  input :hover {
+    border-bottom: 1px solid rgb(231, 197, 102);
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: #004600;
+  }
+  #send-message {
+    background-color: #004600;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    transition: 500ms ease-in-out;
+    cursor: pointer;
+  }
+  
+  #send-message:hover {
+    background-color: rgb(16, 133, 241);
+  }
+  
